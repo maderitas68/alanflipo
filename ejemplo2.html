@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var contador=0;
+        function Capturar(){
+            document.getElementById("contador").innerHTML=`Elemento [${contador++}]:`;
+        }
+    </script>
+</head>
+<body>
+<h1>Arreglos 2: </h1>
+<p>Captura un arreglo de 10 elementos de tipo entero, imprima el arreglo de forma vertical y horizontal. 
+    Imprima el arreglo de forma ascendente y descendente, encuentra el elemento menor, el mayor, la suma, el promedio o media, 
+    la mediana y la moda.
+</p>
+<p style="display: inline;">Elemento [0]</p>
+<input type="number" id="elemento">
+<input type="button" value="Capturar" id="capturar" onclick="Capturar()">
+<input type="button" value="Reiniciar">
+<input type="button" value="Generar Resultados" disabled>
+</body>
+</html>
