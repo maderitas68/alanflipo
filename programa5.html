@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Algoritmo 5 </title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script> function Gottfried() {
+        var entrada = parseInt(document.getElementById("val1").value);
+        if (!isNaN(entrada) && entrada > 0) {
+            var gott = "";
+            var valor = false;
+            var pi = 0.0;
+
+            for (var i = 1; i < entrada * 2; i += 2) {
+                if (valor) {
+                    gott += `1/${i} + `;
+                    pi -= 1.0 / i;
+                    valor = false;
+                } else {
+                    gott += `1/${i} - `;
+                    pi += 1.0 / i;
+                    valor = true;
+                }
+            }
+            pi *= 4;
+            Sucesion = gott.slice(0, -2);
+            document.getElementById("res").innerHTML = `Resultado: <br> ${gott}<br><br>`;
+            document.getElementById("res").innerHTML += `Valor de Pi: ${pi}`;
+        } else {
+            document.getElementById("res").innerHTML = "Algo esta mal";
+        }
+    }
+    </script>
+</head>
+<body>
+    <h1> Algoritmo 5 </h1>
+    <h2> Cálculo de Pi con el método de Gottfried </h2>
+    <p> Calcule el valor de π a partir de la siguiente serie infinita <br> 
+    π = 4 (1/1 -1 /3 + 1/5 -1/7 + 1/9 – 1/11 +…………)</p>
+    Número de iteraciones: <input type="text" id="val1" placeholder="Iteraciones"><br>
+    <input type="button" value="Calcular Pi" onclick="Gottfried()"><br>
+    <p id="res">Resultado: </p>
+    <a href="index.html"> Volver al menu principal </a>
+</body>
+</html>
