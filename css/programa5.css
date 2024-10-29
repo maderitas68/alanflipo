@@ -1,0 +1,94 @@
+/* Estilos generales */
+body {
+    background-color: #FFF9E6; /* Amarillo muy claro */
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #B38B00; /* Amarillo oscuro */
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos del encabezado */
+h1 {
+    color: #B38B00; /* Amarillo oscuro */
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para dar relieve */
+}
+
+/* Estilos de botones */
+input[type="button"] {
+    background-color: #FFD700; /* Amarillo medio */
+    border: none;
+    border-radius: 20px;
+    color: #ffffff; /* Blanco */
+    padding: 12px 24px;
+    cursor: pointer;
+    margin: 15px;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para efecto flotante */
+}
+
+/* Estilos de la sección */
+.section {
+    background-color: #ffffff; /* Blanco */
+    border-radius: 25px; /* Bordes redondeados */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    display: inline-block;
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 700px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+/* Estilos de subtítulos */
+.section h2 {
+    color: #B38B00; /* Amarillo oscuro */
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    text-transform: capitalize;
+}
+
+/* Estilos de párrafos */
+.section p {
+    color: #D4A017; /* Amarillo ligeramente más claro */
+    line-height: 1.7;
+    font-size: 1.1em;
+}
+
+/* Estilos de la tabla */
+table, th, td {
+    border: 1px solid #B38B00; /* Borde de la tabla amarillo oscuro */
+    margin: 0 auto;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    background-color: #FFF4CC; /* Fondo de tabla amarillo suave */
+    border-radius: 15px; /* Bordes redondeados en la tabla */
+}
+
+/* Estilos para imágenes */
+.imagen {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%; /* Imágenes redondas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+}
+
+/* Estilos de h2 en tabla */
+h2 {
+    display: inline;
+    color: #FFD700; /* Amarillo brillante */
+    text-transform: uppercase;
+}

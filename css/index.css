@@ -1,0 +1,94 @@
+/* Estilos generales */
+body {
+    background-color: #FFF9E6; /* Amarillo muy claro */
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #B38B00; /* Amarillo oscuro */
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos del encabezado */
+h1 {
+    color: #B38B00; /* Amarillo oscuro */
+    margin-bottom: 30px;
+    font-size: 2.8em; /* Tamaño de fuente un poco más grande */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para destacar el texto */
+}
+
+/* Estilos de botones */
+input[type="button"] {
+    background-color: #FFD700; /* Amarillo medio */
+    border: none;
+    border-radius: 25px;
+    color: #ffffff; /* Blanco */
+    padding: 14px 28px;
+    cursor: pointer;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar efecto flotante */
+}
+
+/* Estilos de la sección */
+.section {
+    background-color: #ffffff; /* Blanco */
+    border-radius: 25px; /* Bordes más redondeados */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra más grande */
+    display: inline-block;
+    padding: 40px; /* Padding más amplio */
+    margin: 40px auto;
+    max-width: 800px; /* Ampliado el ancho máximo */
+    text-align: center;
+}
+
+/* Estilos de subtítulos */
+.section h2 {
+    color: #B38B00; /* Amarillo oscuro */
+    margin-bottom: 20px;
+    font-size: 2em; /* Tamaño de fuente un poco más grande */
+    text-transform: capitalize;
+}
+
+/* Estilos de párrafos */
+.section p {
+    color: #D4A017; /* Amarillo ligeramente más claro */
+    line-height: 1.8; /* Más espacio entre líneas */
+    font-size: 1.2em; /* Tamaño de fuente más grande */
+}
+
+/* Estilos de la tabla */
+table, th, td {
+    border: 1px solid #B38B00; /* Borde de la tabla amarillo oscuro */
+    margin: 0 auto;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    background-color: #FFF4CC; /* Fondo de tabla amarillo suave */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra de la tabla */
+}
+
+/* Estilos para imágenes */
+.imagen {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%; /* Imágenes redondas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave para las imágenes */
+}
+
+/* Estilos para h2 en tabla */
+h2 {
+    display: inline;
+    color: #FFD700;
+    text-transform: uppercase;
+}

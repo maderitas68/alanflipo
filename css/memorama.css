@@ -1,0 +1,117 @@
+/* Estilos generales */
+body {
+    background-color: #fffde5; /* Amarillo muy claro */
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Caja de título */
+.title-box {
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 10px 0;
+    font-family: Arial, sans-serif;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Espaciado adicional */
+.spaced {
+    margin-left: 40px;
+}
+
+/* Título grande */
+.large-title {
+    font-size: 3em;
+    text-align: center;
+    color: #FFC107; /* Amarillo brillante */
+    margin: 20px 0;
+    font-family: 'Georgia', serif;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+}
+
+/* Título resaltado */
+.highlighted-title {
+    color: #FFA000; /* Amarillo oscuro */
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    margin: 20px 0;
+}
+table{
+    background-image: url("../img/Fondo.jpg");
+    display: inline-table;
+}
+
+/* Estilo para imágenes */
+.imagen {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #FFC107; /* Borde amarillo */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+}
+
+/* Tabla */
+table {
+    background-color: #fff; /* Fondo blanco */
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 1px solid #FFA000; /* Borde amarillo oscuro */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Sombra */
+}
+
+/* Estilo para encabezado */
+h1 {
+    text-align: center;
+    color: #FFC107; /* Amarillo brillante */
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+/* Lista de botones */
+.button-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Botones */
+.button-list input, .button-list a {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #FFA000; /* Amarillo oscuro */
+    border: 2px solid #FFA000; /* Borde amarillo oscuro */
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Caja de información */
+.info-box {
+    text-align: center;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Color de texto para pares encontrados */
+.info-box h2, .info-box .found-pairs {
+    color: #FFC107; /* Amarillo brillante */
+    font-size: 1.5em;
+}
+
+/* Configuración de fondo en la tabla */
+table {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

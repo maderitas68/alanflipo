@@ -1,0 +1,85 @@
+/* Estilos generales */
+body {
+    background-color: #FFF9E6; /* Amarillo muy claro */
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #B38B00; /* Amarillo oscuro */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Estilos del encabezado */
+  h1 {
+    display: inline;
+    color: #B38B00; /* Amarillo oscuro */
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+  }
+  
+  /* Estilos de botones */
+  input[type="button"] {
+    width: 150px;
+    height: 150px;
+    background-color: #FFD700; /* Amarillo medio */
+    border: none;
+    border-radius: 20px;
+    color: #ffffff; /* Blanco */
+    font-size: 100px;
+    cursor: pointer;
+    margin: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #B38B00; /* Amarillo más oscuro */
+  }
+  
+  input[type="submit"] {
+    position: fixed;
+    top: 500px; /* Mueve el botón hacia abajo */
+    left: 1000px; /* Mueve el botón hacia la derecha */
+    background-color: #FFD700; /* Amarillo medio */
+    border: none;
+    border-radius: 20px;
+    color: #ffffff; /* Blanco */
+    font-size: 30px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #B38B00; /* Amarillo más oscuro */
+  }
+  
+  /* Estilos de la tabla */
+  table {
+    display: inline-table;
+    position: relative;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 1px solid;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  tr, td {
+    position: relative;
+    border: 1px solid black;
+  }
+  
+  td:nth-child(1), td:nth-child(2) {
+    border-left: none;
+    border-right: 5px solid black;
+  }
+  
+  tr:nth-child(1), tr:nth-child(2) {
+    border-top: none;
+    border-bottom: 5px solid black;
+  }
+  
+  /* Estilo para imágenes */
+  .imagen {
+    width: 170px;
+    height: 170px;
+  }
+  
