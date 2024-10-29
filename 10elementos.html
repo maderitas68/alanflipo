@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arreglo</title>
+    <link rel="stylesheet" href="./css/Arreglo.css">
+    <script src="./ofuscados/ArregloOf.js"></script>
+</head>
+<body onload="Aleatorios()">
+
+    <h1>Arreglo 2:</h1>
+    <p>Capture un arreglo de 10 elementos de tipo entero, imprima el arreglo de forma vertical y horizontal
+        imprima el arreglo de forma ascendente y descendente, encuentre el elemento menor, el mayor, la suma, el promedio o media, y la moda. </p>
+        <p style="display: inline;" id="contador"> Elemento [0]:</p>
+        <input type="number" id="elementoInput">
+        <input type="button" value="Capturar" onclick="Capturar(); Aleatorios()" id="botonC">
+        <input type="button" value="Reiniciar" onclick="Reiniciar()">
+        <input type="button" value="Resultados" id="botonGenerar" onclick="Calcular()" disabled> 
+        <br><br><p id="resultados"></p>
+        <table border="1" style="border-collapse: collapse ;" id="TablaHorizontal">
+            <tr id="renglonIndice"></tr>
+            <tr id="renglonDato"></tr>
+        </table>
+        <table border="1" style="border-collapse: collapse;" id="TablaHorizontal2"> 
+            <tr id="renglonIndice2"></tr>
+            <tr id="renglonDato2"></tr>
+        </table>
+        <table border="1" style="border-collapse: collapse;" id="TablaHorizontal3">
+            <tr id="renglonIndice3"></tr>
+            <tr id="renglonDato3"></tr>
+        </table>
+        <br>
+        <table id="TablaVertical" border="1" style="border-collapse: collapse; display: inline-block;"></table>
+        <table id="TablaVertical2" border="1" style="border-collapse: collapse; display: inline-block;"></table>
+        <table id="TablaVertical3" border="1" style="border-collapse: collapse; display: inline-block;"></table>
+        <br>
+        <a href="index.html"><button>Regresar al menu</button></a><br>
+</body>
+</html>

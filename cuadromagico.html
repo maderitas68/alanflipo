@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cuadrado Magico</title>
+    <link rel="stylesheet" href="css/cuadradomagico.css">
+    <script src="ofuscados/CuadroMagicaOf.js"> </script>
+</head>
+<body>
+    <h1>•Cuadrado Magico•</h1>
+    <p> Seleccione el tamaño del cuadrado </p>
+    <select id="lados" onchange="Generar()">
+         <option value="2"> 2 </option> 
+         <option value="3"> 3 </option>
+         <option value="4"> 4 </option>
+         <option value="5"> 5 </option>
+    </select> <br> <br>
+    <input type="button" value="Generar" onclick="Generar()">
+    <input type="button" value="Verificar" onclick="Calcular()">
+    <input type="button" value="Ejemplo de Cuadrado" onclick="EjemploCuadrado()">
+    <input type="button" value="Ejemplo de cuadrado magico" onclick="EjemploMagico()">
+    <br>
+    <h3 id="verificar"> No es cuadrado magico</h3>
+    <table border="0.5" id="cuadrado" style="border-collapse: collapse;"></table>
+    <a href="index.html"> Volver al Menu Principal</a>
+</body>
+</html>
